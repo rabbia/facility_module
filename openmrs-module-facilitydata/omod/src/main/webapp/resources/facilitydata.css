@@ -1,0 +1,24 @@
+
+.actionImage {
+	cursor: pointer;	
+}
+
+.facilityDataTable td,th {font-size:small; text-align:left; vertical-align:top;}
+
+.facilityDataHeader {font-size:large; padding-left:10px;}
+
+.odd { background-color:#DCDCDC; }
+.even { background-color:white; }
+.readOnly { color:blue; font-weight:bold; }
+.noAnswer { color:red; font-weight:bold; }
+
+input.wide {
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+table {
+	font-size: 1em;
+}

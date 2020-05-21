@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+
+    <description>Facility Data Tag library</description>
+    <tlib-version>1.0</tlib-version>
+    <short-name>facilitydata</short-name>
+
+    <function>
+        <name>formatDate</name>
+        <function-class>org.openmrs.module.facilitydata.util.FacilityDataUtil</function-class>
+        <function-signature>java.lang.String formatDate(java.util.Date, java.lang.String, java.lang.String)</function-signature>
+    </function>
+  
+    <function>
+        <name>isDateInRange</name>
+        <function-class>org.openmrs.module.facilitydata.util.FacilityDataUtil</function-class>
+        <function-signature>java.lang.Boolean isDateInRange(java.util.Date, java.util.Date, java.util.Date)</function-signature>
+    </function>
+
+</taglib>
